@@ -19,10 +19,10 @@ Johdatus tietojenkäsittelytieteisiin | 5 op | pass
 
 # Hobby projects
 
-I am constantly working on some hobby programming project of my own. My aim is to create useful apps for anyone to use. I started off 2018 with practically zero programming skills. In 2019 I realized that some basic training could be useful and started participating courses at the University of Helsinki (as much as my day-to-day job allowed). Currently I am enthusiastic about ReactNative. Some of my work with ReactNative is available on the internet (please see the short desciptions and links below).
+I am constantly working on some hobby programming project of my own. I started off 2018 with Swift/Xcode and with practically zero programming skills. In 2019 I realized that besides googling some basic training could be really useful and started participating courses at the University of Helsinki (as much as my day-to-day job allowed). Currently I am enthusiastic about ReactNative. Some of my work with ReactNative is available on the internet (please see the short desciptions and links below).
 
-### Cards game nopsa
-As a child, my favorite cards game was 'nopsa'. I created **[the app nopsagame](https://satuhyva.github.io/nopsagame)** in order to be able to play this game with my phone. The respective **[code](https://github.com/satuhyva/nopsagame)** is available for viewing.
+### Cards game nopsa (a two-player solitaire)
+As a child, my favorite cards game was 'nopsa' a kind of two-player solitaire. Not many people know the game, so it is difficult to find people to play with.  I created **[the app nopsagame](https://satuhyva.github.io/nopsagame)** in order to enable playing 'nopsa' in a mobbile mode. The respective **[code](https://github.com/satuhyva/nopsagame)** is available for viewing.
 
 ### Binary-to-decimal-to-binary converter
 Several exercises on a course I was taking (_i.e._ "Tietokoneen toiminnan perusteet") involved binary-to-decimal conversions. I created **[the app bindesbin](https://satuhyva.github.io/bindesbin)** in order to swiftly get correct answers to the excersices. The respective **[code](https://github.com/satuhyva/bindesbin)** is available for viewing.
