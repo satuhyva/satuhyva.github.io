@@ -25,5 +25,5 @@ I am constantly working on programming projects of my own. I started off by usin
 Several exercises on a course I was taking (_i.e._ "Tietokoneen toiminnan perusteet") involved binary-to-decimal conversions. I created **[the app bindesbin](https://satuhyva.github.io/bindesbin)** in order to swiftly get correct answers to the excersices. The respective **[code](https://github.com/satuhyva/bindesbin)** is available for viewing.
 
 ### Simple calculator
-During the course 'Fullstack development' I learned about React. As I am mainly interested in mobile development, I later turned my gaze upon ReactNative. I created **[the app EqualsTo](https://satuhyva.github.io/EqualsTo)** in order to get familiar with this exciting framework. 
+During the course 'Fullstack development' I learned about React. As I am mainly interested in mobile development, I later turned my gaze upon ReactNative. I created **[the app EqualsTo](https://satuhyva.github.io/EqualsTo)** in order to get familiar with this exciting framework. The respective **[code](https://github.com/satuhyva/EqualsTo)** is available for viewing.
 
