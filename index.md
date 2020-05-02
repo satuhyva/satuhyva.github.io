@@ -14,7 +14,7 @@ Ohjelmoinnin perusteet  | 5 op | 5
 Tietokantojen perusteet  | 5 op | 4
 Tietokoneen toiminnan perusteet | 2 op | pass
 Tietoliikenteen perusteet 1  | 2 op | 5
-Johdatus tietojenkäsittelytieteisiin | 5 op | pass
+Johdatus tietojenkäsittelytieteisiin (Oulu) | 5 op | pass
 
 
 # Hobby projects
