@@ -1,10 +1,12 @@
-### Courses completed (at University of Helsinki):
+### Courses completed
+I have completed the following computer science courses at University of Helsinki:
 
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Course | Credits | Grade (scale 1-5 or pass/fail)
+------------ | ------------- | -------------
+Full Stack -websovelluskehitys | 8 op | 5
+Full Stack -websovelluskehitys harjoitustyö | 10 op | pass
+Tietorakenteet ja algoritmit | 10 op | 5
 
 
 
