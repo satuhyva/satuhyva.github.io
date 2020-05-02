@@ -19,7 +19,7 @@ Johdatus tietojenkäsittelytieteisiin | 5 op | pass
 
 # Hobby projects
 
-I am constantly working on programming projects of my own. I started off by using Swift/Xcode, currently I use ReactNative. Some of my work is available on the internet (please see the short desciptions and links below).
+I am constantly working on some hobby programming project of my own. My aim is to create useful apps for anyone to use. I started off 2018 with practically zero programming skills. In 2019 I realized that some basic training could be useful and started participating courses at the University of Helsinki (as much as my day-to-day job allowed). Currently I am enthusiastic about ReactNative. Some of my work with ReactNative is available on the internet (please see the short desciptions and links below).
 
 ### Binary-to-decimal-to-binary converter
 Several exercises on a course I was taking (_i.e._ "Tietokoneen toiminnan perusteet") involved binary-to-decimal conversions. I created **[the app bindesbin](https://satuhyva.github.io/bindesbin)** in order to swiftly get correct answers to the excersices. The respective **[code](https://github.com/satuhyva/bindesbin)** is available for viewing.
