@@ -1,6 +1,6 @@
 # Courses completed
 
-I have completed the following computer science courses at University of Helsinki:
+I have completed the following computer science courses at University of Helsinki (during 2019-2020):
 
 Course | Credits | Grade (scale 1-5 or pass/fail)
 ------------ | ------------- | -------------
@@ -16,6 +16,10 @@ Tietokoneen toiminnan perusteet | 2 op | pass
 Tietoliikenteen perusteet 1  | 2 op | 5
 Johdatus tietojenkäsittelytieteisiin | 5 op | pass
 
+
+# Hobby projects
+
+Some of my hobby projects can be viewed on the internet:
 
 
 
