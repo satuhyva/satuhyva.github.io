@@ -19,7 +19,11 @@ Johdatus tietojenkäsittelytieteisiin | 5 op | pass
 
 # Hobby projects
 
-Some of my hobby projects can be viewed on the internet:
+I am constantly working on programming projects of my own. I started off by using Swift/Xcode, currently I use ReactNative. Some of my work is available on the internet (please see the short desciptions and links below).
+
+### Binary-to-decimal-to-binary converter
+Several exercises on a course I was taking (_i.e._ "Tietokoneen toiminnan perusteet") involved binary-to-decimal conversions. I created this simple app to 
+ [bindesbin](https://satuhyva.github.io/bindesbin) 
 
 
 
