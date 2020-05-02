@@ -1,6 +1,6 @@
 # Courses completed
 
-I have completed the following computer science courses at University of Helsinki (during 2019-2020):
+I have completed the following computer science courses at University of Helsinki (since 2019):
 
 Course | Credits | Grade (scale 1-5 or pass/fail)
 ------------ | ------------- | -------------
