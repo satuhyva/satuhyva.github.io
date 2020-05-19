@@ -5,14 +5,14 @@ I have completed the following computer science courses at University of Helsink
 Course | Credits | Grade (scale 1-5)
 ------------ | ------------- | -------------
 Full Stack -websovelluskehitys | 8 op | 5
-Full Stack -websovelluskehitys harjoitustyö | 10 op | 
+Full Stack -websovelluskehitys harjoitustyö | 10 op | pass
 Tietorakenteet ja algoritmit | 10 op | 5
 Ohjelmistotuotanto | 5 op | 5
 Web-palvelinohjelmointi Java | 5 op | 5
 Ohjelmoinnin jatkokurssi | 5 op | 5
 Ohjelmoinnin perusteet  | 5 op | 5
 Tietokantojen perusteet  | 5 op | 4
-Tietokoneen toiminnan perusteet | 2 op | 
+Tietokoneen toiminnan perusteet | 2 op | pass
 Tietoliikenteen perusteet 1  | 2 op | 5
 Johdatus tietojenkäsittelytieteisiin (Oulu) | 5 op | 4
 
