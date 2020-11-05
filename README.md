@@ -4,7 +4,7 @@ I developed an interest in programming in 2018. I started off with Swift/Xcode w
 
 
 ### What's in stock (a junior developer assigment)
-Reaktor had an interesting  **[assignment](https://www.reaktor.com/junior-dev-assignment/)** for junior developers. My solution **[app](https://satuhyva.github.io/whatsinstock/)** can be found here and the respective **[code](https://github.com/satuhyva/whatsinstock/tree/master)** here. The app uses a "bad api" provided by Reaktor (https://bad-api-assignment.reaktor.com/).
+Reaktor had an interesting  **[assignment](https://www.reaktor.com/junior-dev-assignment/)** for junior developers. My **[functioning app](https://satuhyva.github.io/whatsinstock/)** can be found here and the respective **[code](https://github.com/satuhyva/whatsinstock/tree/master)** here. The app uses a "bad api" provided by Reaktor (https://bad-api-assignment.reaktor.com/).
 
 ### eezySurvey (an app to enable performing surveys, in process)
 A somewhat larger app for creating surveys, participating in surveys and reviewing survey results. The front end is a React express app and the backend is a Node express API. Heroku PostgreSQL database is used for permanent data storage. Coming soon.
