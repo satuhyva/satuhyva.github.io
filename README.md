@@ -1,10 +1,13 @@
-# Hobby projects
+# HOBBY PROJECTS
 
-I developed an interest in programming in 2018. I started off with Swift/Xcode with practically zero skills. In 2019 I realized that some basic training could be really useful and therefore started taking courses at the University of Helsinki (as much as my fulltime job allowed). From the very beginning, I have always been working on some hobby programming project of my own. Some of my work with React(Native) is available on the internet (please see below).
+I developed an interest in programming in 2018. I started off with Swift/Xcode with practically zero programming skills. In 2019 I realized that some basic training could be really useful and started taking MOOC-courses offered by the University of Helsinki (as much as my fulltime job as a biochemist allowed). From the very beginning, I have always been working on some hobby programming projects of my own. Links to some of my apps can be found below.
 
 
 ### eezySurvey (an app to enable performing surveys, in process)
-Coming soon.
+A somewhat larger app for creating surveys, participating in surveys and reviewing survey results. The front end is a React express app and the backend is a Node express API. Heroku PostgreSQL database is used for permanent data storage. Coming soon.
+
+### What's in stock (a junior developer assigment)
+Reaktor had an interesting  **[assignment](https://www.reaktor.com/junior-dev-assignment/)** for junior developers. My solution **[app](https://satuhyva.github.io/whatsinstock/)** can be found here and the respective **[code](https://github.com/satuhyva/whatsinstock/tree/master)** code here. The app uses a "bad api" provided by Reaktor (https://bad-api-assignment.reaktor.com/).
 
 ### LotsOfDots (a dot voting app, in process)
 A simple, very quick to use dot voting app with no need for participant emails or phone numbers.  **[Current version of app](https://satuhyva.github.io/lotsofdots_frontend)** and the respective **[code](https://github.com/satuhyva/lotsofdots_frontend)** are available for viewing. The frontend was created using React Native (Web). The backend is a Node express REST API and is located in Heroku. MongoDB is used for data storage.
@@ -20,7 +23,7 @@ During the course 'Fullstack development' I learned about React. As I am mainly 
 
 
 
-# Courses completed
+# COURSES COMPLETED
 
 I have completed the following computer science courses at University of Helsinki (starting 2019):
 
