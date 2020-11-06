@@ -4,10 +4,10 @@ I developed an interest in programming in 2018. I started off with Swift/Xcode w
 
 
 ### What's in stock (a junior developer assigment)
-Reaktor had an interesting  **[assignment](https://www.reaktor.com/junior-dev-assignment/)** for junior developers. I wanted to give it ago and came up with this **[functioning app solution](https://satuhyva.github.io/whatsinstock/)** and this **[code](https://github.com/satuhyva/whatsinstock/tree/master)**. The app uses a "bad api" provided by Reaktor (https://bad-api-assignment.reaktor.com/).
+Reaktor had an interesting  **[assignment](https://www.reaktor.com/junior-dev-assignment/)** for junior developers. I wanted to give it ago and came up with this solution for a **[functioning app](https://satuhyva.github.io/whatsinstock/)** and this **[code](https://github.com/satuhyva/whatsinstock/tree/master)**. The app uses a "bad api" provided by Reaktor (https://bad-api-assignment.reaktor.com/).
 
 ### eezySurvey (an app to enable performing surveys, in process)
-A somewhat larger app for creating surveys, participating in surveys and reviewing survey results. The front end is a React express app and the backend is a Node express API. Heroku PostgreSQL database is used for permanent data storage. Coming soon.
+A somewhat larger app for creating surveys, participating in surveys and reviewing survey results. The front end is a React express app and the backend is a Node express API. Heroku PostgreSQL database is used for permanent data storage. Note that in **[eezySurvey app](https://protected-forest-53702.herokuapp.com/)** the mail links are sent from a Yahoo account and they take time to be delivered.
 
 ### LotsOfDots (a dot voting app, on hold)
 A simple, very quick to use dot voting app with no need for participant emails or phone numbers.  **[Current version of app](https://satuhyva.github.io/lotsofdots_frontend)** and the respective **[code](https://github.com/satuhyva/lotsofdots_frontend)** are available for viewing. The frontend was created using React Native (Web). The backend is a Node express REST API and is located in Heroku. MongoDB is used for data storage.
