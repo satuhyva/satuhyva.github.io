@@ -3,7 +3,7 @@
 I developed an interest in programming in 2018. I started off with Swift/Xcode with practically zero programming skills. In 2019 I realized that some basic training could be really useful and started taking MOOC-courses offered by the University of Helsinki (as much as my fulltime job as a biochemist allowed). From the very beginning, I have always been working on some hobby programming projects of my own. Links to some of my apps (sorted according to time created) can be found below.
 
 ### LotsOfDots (Typescript version)
-Currently I am trying to learn Typescript. I am developing a new version of my simple dot voting app. I use GitHub Actions to deploy the **[frontend code](https://github.com/satuhyva/lotsofdots)** of the **[Typescript React frontend](https://satuhyva.github.io/lotsofdots/)** to GitHub Pages. The backend is coming soon. 
+Currently I am trying to learn Typescript. I am developing a new version of my simple dot voting app. I use GitHub Actions CI/CD to deploy the **[frontend code](https://github.com/satuhyva/lotsofdots)** of the **[Typescript React frontend](https://satuhyva.github.io/lotsofdots/)** to GitHub Pages. The backend is coming soon. 
 
 ### What's in stock (a junior developer assigment)
 Reaktor had an interesting  **[assignment](https://www.reaktor.com/junior-dev-assignment/)** for junior developers. I wanted to give it ago and came up with this solution for a **[functioning app](https://satuhyva.github.io/whatsinstock/)** and this **[code](https://github.com/satuhyva/whatsinstock/tree/master)**. The app uses a "bad api" provided by Reaktor (https://bad-api-assignment.reaktor.com/).
