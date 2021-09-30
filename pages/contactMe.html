@@ -29,8 +29,14 @@
       <div class="g-recaptcha" data-sitekey="6LfqvJwcAAAAAO_QjgdUHA14GdU5DUYfZ7TNoQrA" data-callback="verifyCaptcha"></div>
       <div id="g-recaptcha-error"></div>
     </div>
+    <button type="button" name="button" onclick="submitContactMessage"></button>
     <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+
     <script type="text/javascript">
+      var recaptcha_response = ''
+      function submitContactMessage() {
+        return true
+      }
       function verifyCaptcha(token) {
           recaptcha_response = token
           console.log(token)
