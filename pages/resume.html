@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Satu Hyvärinen Printable Resume</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/resume.css">
+    <!-- <script src="https://kit.fontawesome.com/7226cd63da.js" crossorigin="anonymous"></script> -->
+  </head>
+  <body>
+
+    <p class="navigation_links">
+      <a class="navigation_link" href="../index.html">HOME</a>
+      <span class="slash_between">/</span>
+      <a class="is_selected_navigation_link" href="./resume.html">RESUME</a>
+      <span class="slash_between">/</span>
+      <a class="navigation_link" href="./hobbyProjects.html">PROJECTS</a>
+      <span class="slash_between">/</span>
+      <a class="navigation_link" href="./personalInfo.html">PERSONAL</a>
+      <span class="slash_between">/</span>
+      <a class="navigation_link" href="./contactMe.html">CONTACT</a>
+    </p>
+
+    <div class="centered_container">
+      <div class="centered_column_narrow">
+            <img src="../images/5.png" width="150" height="150">
+      </div>
+      <div  class="centered_column_narrow">
+        <h1 class="title_smaller_no_top_margin">RESUME</h1>
+      </div>
+      <div class="centered_column_narrow">
+        <a class="link_button_with_spacing" download="SatuHyvarinenResume.pdf" href="../files/SatuHyvarinenResume.pdf">DOWNLOAD A PDF VERSION</a>
+      </div>
+    </div>
+
+
+<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible -->
+    <div class="centered_container">
+      <div class="narrowed_contents">
+
+        <table>
+          <col style="width: 20%">
+          <col style="width: 80%">
+          <tbody>
+
+            <tr>
+              <th class="resume_th dotted_line_bottom_cell"><h2>PROFILE</h2></th>
+              <td class="resume_td dotted_line_bottom_cell"><p>COMING SOON!</p></td>
+            </tr>
+
+            <tr>
+              <th class="resume_th dotted_line_bottom_cell">
+                <h2>EDUCATION</h2>
+              </th>
+
+              <td class="resume_td dotted_line_bottom_cell">
+
+                <div class="collapsible cs">
+                  <h3 class="education_title">COMPUTER SCIENCE STUDIES</h3>
+                  <div class="expand_button" id="cs">
+                    MORE
+                  </div>
+                </div>
+                <div class="collapsible_content">
+                  <div class="left_aligned_column" >
+                    <table class="courses">
+                      <tr>
+                        <th>Course title</th>
+                        <th>Credits</th>
+                        <th>Grade (scale 1-5)</th>
+                      </tr>
+                      <tr>
+                        <td>Full Stack -websovelluskehitys</td>
+                        <td>8 op</td>
+                        <td>5</td>
+                      </tr>
+                      <tr>
+                        <td>Full Stack -websovelluskehitys harjoitustyö</td>
+                        <td>10 op</td>
+                        <td>pass</td>
+                      </tr>
+                      <tr>
+                        <td>Tietorakenteet ja algoritmit</td>
+                        <td>10 op</td>
+                        <td>5</td>
+                      </tr>
+                      <tr>
+                        <td>Ohjelmistotuotanto</td>
+                        <td>5 op</td>
+                        <td>5</td>
+                      </tr>
+                      <tr>
+                        <td>Web-palvelinohjelmointi Java</td>
+                        <td>5 op</td>
+                        <td>5</td>
+                      </tr>
+                      <tr>
+                        <td>Ohjelmoinnin jatkokurssi</td>
+                        <td>5 op</td>
+                        <td>5</td>
+                      </tr>
+                      <tr>
+                        <td>Ohjelmoinnin perusteet</td>
+                        <td>5 op</td>
+                        <td>5</td>
+                      </tr>
+                      <tr>
+                        <td>Tietokantojen perusteet</td>
+                        <td>5 op</td>
+                        <td>4</td>
+                      </tr>
+                      <tr>
+                        <td>Tietokoneen toiminnan perusteet</td>
+                        <td>2 op</td>
+                        <td>pass</td>
+                      </tr>
+                      <tr>
+                        <td>Tietoliikenteen perusteet 1 </td>
+                        <td>2 op</td>
+                        <td>5</td>
+                      </tr>
+                      <tr>
+                        <td>Johdatus tietojenkäsittelytieteisiin (Oulu)</td>
+                        <td>5 op</td>
+                        <td>4</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="collapsible phd">
+                  <h3 class="education_title">BIOCHEMISTRY (Doctor of Philosophy)</h3>
+                  <div class="expand_button" id="phd">
+                    MORE
+                  </div>
+                </div>
+                <div class="collapsible_content">
+                  <div class="left_aligned_column" >
+                    <table>
+                      <tr class="tr_info_text">
+                        <td>2016</td>
+                        <td>University of Helsinki</td>
+                      </tr>
+                      <tr class="tr_info_text">
+                        <td></td><td>Major: Biochemistry</td>
+                      </tr>
+                      <tr class="tr_info_text">
+                        <td></td><td>Minor: Microbiology</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+
+
+                <div class="collapsible di">
+                  <h3 class="education_title">CHEMICAL ENGINEERING (Master of Science, Tech.)</h3>
+                  <div class="expand_button" id="di">
+                    MORE
+                  </div>
+                </div>
+                <div class="collapsible_content">
+                  <div class="left_aligned_column" >
+                    <table>
+                      <tr class="tr_info_text">
+                        <td>1999</td>
+                        <td>Helsinki University of Technology</td>
+                      </tr>
+                      <tr class="tr_info_text">
+                        <td></td><td>Major: Chemical Engineering</td>
+                      </tr>
+                      <tr class="tr_info_text">
+                        <td></td><td>Minor 1: Technical Chemistry</td>
+                      </tr>
+                      <tr class="tr_info_text">
+                        <td></td><td>Minor 2: Thermodynamics</td>
+                      </tr>
+                    </table>
+                    <p class="tr_info_text">
+                      My studies included a lot of  mathematics courses,
+                      which has proven very useful in programming.
+                    </p>
+                  </div>
+                </div>
+
+
+
+              </td>
+            </tr>
+
+            <tr>
+              <th class="resume_th dotted_line_bottom_cell"><h2>WORK EXPERIENCE</h2></th>
+              <td class="resume_td dotted_line_bottom_cell"><p>COMING SOON!</p></td>
+            </tr>
+
+            <tr>
+              <th class="resume_th dotted_line_bottom_cell"><h2>SKILLS</h2></th>
+              <td class="resume_td dotted_line_bottom_cell"><p>COMING SOON!</p></td>
+            </tr>
+            <tr>
+              <th class="resume_th dotted_line_bottom_cell"><h2>LANGUAGES</h2></th>
+              <td class="resume_td dotted_line_bottom_cell"><p>COMING SOON!</p></td>
+            </tr>
+
+            <tr>
+              <th class="resume_th dotted_line_bottom_cell"><h2>ACHIEVEMENTS</h2></th>
+              <td class="resume_td dotted_line_bottom_cell"><p>COMING SOON!</p></td>
+            </tr>
+
+            <tr>
+              <th class="resume_th"><h2>PERSONAL</h2></th>
+              <td class="resume_td"><p>COMING SOON!</p></td>
+            </tr>
+
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+      let collapsibles = document.getElementsByClassName("collapsible");
+      for (let i = 0; i < collapsibles.length; i++) {
+        collapsibles[i].addEventListener("click", function() {
+          this.classList.toggle("active")
+          let button = document.getElementById(this.classList.value.split(" ")[1])
+          if (button.innerText === "MORE") button.innerText = "LESS"
+          else button.innerText = "MORE"
+          let content = this.nextElementSibling
+          if (content.style.display === "block") {
+            content.style.display = "none"
+          } else {
+            content.style.display = "block"
+        }
+      })
+    }
+    </script>
+
+  </body>
+</html>

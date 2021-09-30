@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Satu Hyvärinen Hobby Projects</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/hobbyProjects.css">
+  </head>
+  <body>
+
+    <p class="navigation_links">
+      <a class="navigation_link" href="../index.html">HOME</a>
+      <span class="slash_between">/</span>
+      <a class="navigation_link" href="./resume.html">RESUME</a>
+      <span class="slash_between">/</span>
+      <a class="is_selected_navigation_link" href="./hobbyProjects.html">PROJECTS</a>
+      <span class="slash_between">/</span>
+      <a class="navigation_link" href="./personalInfo.html">PERSONAL</a>
+      <span class="slash_between">/</span>
+      <a class="navigation_link" href="./contactMe.html">CONTACT</a>
+    </p>
+
+    <div class="centered_container">
+          <img src="../images/3.png" width="150" height="150">
+          <h1 class="title_smaller">HOBBY PROJECTS</h1>
+    </div>
+
+    <div class="centered_column">
+          <p class="info_projects">
+            Coding is so cool that I just can't get enough of it at work. Therefore I always have at least one "hobby coding project" ongoing.
+             In the table below you can find information on my current and past projects. The more recent ones are at the top.
+          </p>
+          <p class="info_projects">
+             IMPORTANT: My aim has NOT been to write completed apps with outstanding refactored code!
+             Rather, MY AIM HAS BEEN TO QUICKLY TRY OUT NEW TECHNOLOGIES.
+             I have NOT done refactoring, I have NOT completed the projects, and I am NOT maintaining the projects.
+          </p>
+          <br>
+    </div>
+
+
+    <div class="centered_container filter_buttons_container">
+      <button class="filter_button_selected" onclick="filterTableRows('all')" id="all">ALL</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('javascript')" id="javascript">JAVASCRIPT</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('typescript')" id="typescript">TYPESCRIPT</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('node')" id="node">NODE</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('express')" id="express">EXPRESS</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('react')" id="react">REACT</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('reactnative')" id="reactnative">REACT NATIVE</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('python')" id="python">PYTHON</button>
+    </div>
+    <div class="centered_container filter_buttons_container">
+      <button class="filter_button_not_selected"  onclick="filterTableRows('html')" id="html">HTML</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('css')" id="css">CSS</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('graphql')" id="graphql">GRAPHQL</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('apollo')" id="apollo">APOLLO</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('mongodb')" id="mongodb">MONGODB</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('cloudinary')" id="cloudinary">CLOUDINARY</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('heroku')" id="heroku">HEROKU</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('framer')" id="framer">FRAMER</button>
+    </div>
+    <div class="centered_container filter_buttons_container">
+      <button class="filter_button_not_selected"  onclick="filterTableRows('flutter')" id="flutter">FLUTTER</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('robotframework')" id="robotframework">ROBOT FRAMEWORK</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('postgresql')" id="postgresql">POSTGRE SQL</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('rest')" id="rest">REST</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('firebase')" id="firebase">FIREBASE</button>
+      <button class="filter_button_not_selected"  onclick="filterTableRows('githubactions')" id="githubactions">GITHUB ACTIONS</button>
+    </div>
+
+
+
+    <table class="apps_table">
+      <col style="width:15%">
+      <col style="width:20%">
+      <col style="width:12.5%">
+      <col style="width:12.5%">
+      <col style="width:40%">
+      <th>
+        <tr>
+          <td class="table_header_text">PROJECT</td>
+          <td class="table_header_text">TECHNOLOGIES</td>
+          <td class="table_header_text">CODE</td>
+          <td class="table_header_text">APP</td>
+          <td class="table_header_text">DESCRIPTION</td>
+        </tr>
+      </th>
+      <tbody>
+
+        <tr class="filterable flutter dart firestore robotframework">
+          <td class="table_cell">CHESS BUDDIES</td>
+          <td class="table_cell">
+            <ul>
+              <li class="table_cell_text">Flutter</li>
+              <li class="table_cell_text">Dart</li>
+              <li class="table_cell_text">Firestore</li>
+              <li class="table_cell_text">Robot Framework</li>
+            </ul>
+          </td>
+          <td class="table_cell"><a class="link_button_dark" href="https://github.com/satuhyva/chess_buddies">to code</a></td>
+          <td class="table_cell"></td>
+          <td class="table_cell">Currently I am working on CHESS BUDDIES. I started this project in order to learn Flutter. CHESS BUDDIES is a platform where people can play chess with each other. The game will be available in Google and Apple Stores!</td>
+        </tr>
+
+        <tr class="filterable python html css">
+          <td class="table_cell">100 Days of Code</td>
+          <td class="table_cell">
+            <ul>
+              <li class="table_cell_text">python</li>
+              <li class="table_cell_text">HTML</li>
+              <li class="table_cell_text">CSS</li>
+            </ul>
+          </td>
+          <td class="table_cell"><a class="link_button_dark" href="https://github.com/satuhyva/100daysOfPython">to code</a></td>
+          <td class="table_cell"></td>
+          <td class="table_cell">I am learning python by following the Udemy course "100 Days of Code - The Complete Python Pro Bootcamp for 2021".</td>
+        </tr>
+
+        <tr class="filterable reactnative graphql typescript apollo framer">
+          <td class="table_cell">SWAPLINGS frontend</td>
+          <td class="table_cell">
+            <ul>
+              <li class="table_cell_text">React Native</li>
+              <li class="table_cell_text">GraphQL</li>
+              <li class="table_cell_text">Typescript</li>
+              <li class="table_cell_text">Apollo Client</li>
+              <li class="table_cell_text">Framer</li>
+            </ul>
+          </td>
+          <td class="table_cell"><a class="link_button_dark" href="https://github.com/satuhyva/SWAPLINGS">to code</a></td>
+          <td class="table_cell"><a class="link_button_dark" href="https://framer.com/share/SWAPLINGS--pUB803WLrdmyjo2nFl2X/X4uVRGpGY#X4uVRGpGY">Framer proto</a></td>
+          <td class="table_cell">SWAPLINGS is an app where users can swap items with other items (of similar value) owned by other users. Swapping can be done after items have been "matched". This is the frontend of the fullstack SWAPLINGS app. I created this app to learn React Native and GraphQL.</td>
+        </tr>
+
+        <tr class="filterable node express graphql typescript apollo mongodb cloudinary heroku">
+          <td class="table_cell">SWAPLINGS backend</td>
+          <td class="table_cell">
+            <ul>
+              <li class="table_cell_text">Node</li>
+              <li class="table_cell_text">Express</li>
+              <li class="table_cell_text">GraphQL</li>
+              <li class="table_cell_text">Typescript</li>
+              <li class="table_cell_text">Apollo Server</li>
+              <li class="table_cell_text">Mongo DB</li>
+              <li class="table_cell_text">Cloudinary</li>
+              <li class="table_cell_text">Heroku</li>
+            </ul>
+          </td>
+          <td class="table_cell"><a class="link_button_dark" href="https://github.com/satuhyva/swaplings_server">to code</a></td>
+          <td class="table_cell"></td>
+          <td class="table_cell">See SWAPLINGS frontend description. This is the backend for the fullstack SWAPLINGS app.</td>
+        </tr>
+
+        <tr class="filterable react typescript githubactions">
+          <td class="table_cell">Lots Of Dots (Typescript version) frontend</td>
+          <td class="table_cell">
+            <ul>
+              <li class="table_cell_text">React</li>
+              <li class="table_cell_text">Typescript</li>
+              <li class="table_cell_text">GitHub Actions</li>
+            </ul>
+          </td>
+          <td class="table_cell"><a class="link_button_dark" href="https://github.com/satuhyva/lotsofdots">to code</a></td>
+          <td class="table_cell"><a class="link_button_dark" href="https://satuhyva.github.io/lotsofdots/">to app</a></td>
+          <td class="table_cell">Completely new realization of the Lots Of Dots dot voting app. The aim in developing this app was to learn Typescript. This is the frontend to the app.</td>
+        </tr>
+
+
+          <tr class="filterable node express heroku postgresql typescript githubactions rest">
+              <td class="table_cell">Lots Of Dots (Typescript version) backend</td>
+              <td class="table_cell">
+                <ul>
+                  <li class="table_cell_text">Node</li>
+                  <li class="table_cell_text">Express</li>
+                  <li class="table_cell_text">Typescript</li>
+                  <li class="table_cell_text">PostgreSQL</li>
+                  <li class="table_cell_text">GitHub Actions</li>
+                  <li class="table_cell_text">Heroku</li>
+                  <li class="table_cell_text">REST</li>
+                </ul>
+              </td>
+              <td class="table_cell"><a class="link_button_dark" href="https://github.com/satuhyva/lotsofdots">to code</a></td>
+              <td class="table_cell"><a class="link_button_dark" href="https://satuhyva.github.io/lotsofdots/">to app</a></td>
+              <td class="table_cell">See Lots Of Dots (Typescript version) frontend description. This is the backend for the app.</td>
+            </tr>
+
+            <tr class="filterable react javascript">
+                <td class="table_cell">What's in stock</td>
+                <td class="table_cell">
+                  <ul>
+                    <li class="table_cell_text">React</li>
+                    <li class="table_cell_text">Javascript</li>
+                  </ul>
+                </td>
+                <td class="table_cell"><a class="link_button_dark" href="https://github.com/satuhyva/whatsinstock/tree/master">to code</a></td>
+                <td class="table_cell"><a class="link_button_dark" href="https://satuhyva.github.io/whatsinstock/">to app</a></td>
+                <td class="table_cell">
+                  <div>
+                    <p>
+                      Reaktor company had an iteresting assignment for junior developers. I didn't apply but wanted to give the assignment a go. The frontend app uses a "bad api".
+                    </p>
+                    <a class="link_button_dark" href="https://bad-api-assignment.reaktor.com">to the assigned bad app</a>
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="filterable reactnative node express javascript mogdodb heroku rest">
+                  <td class="table_cell">Lots of Dots (original)</td>
+                  <td class="table_cell">
+                    <ul>
+                      <li class="table_cell_text">React Native</li>
+                      <li class="table_cell_text">Node</li>
+                      <li class="table_cell_text">Express</li>
+                      <li class="table_cell_text">Javascript</li>
+                      <li class="table_cell_text">MongoDB</li>
+                      <li class="table_cell_text">Heroku</li>
+                      <li class="table_cell_text">REST</li>
+                    </ul>
+                  </td>
+                  <td class="table_cell"><a class="link_button_dark" href="https://github.com/satuhyva/lotsofdots_frontend">to code</a></td>
+                  <td class="table_cell"><a class="link_button_dark" href="https://satuhyva.github.io/lotsofdots_frontend/">to app</a></td>
+                  <td class="table_cell">
+                    The original version of my dot voting app Lots of Dots.
+                    I started this project to learn React Native. The backend is combined to the frontend.
+                    NOTE BIEN: The backend does not exist in Heroku anymore due to the only-5-free-apps limitation.
+                  </td>
+                </tr>
+
+              <tr class="filterable reactnative javascript">
+                  <td class="table_cell">Card Game NOPSA</td>
+                  <td class="table_cell">
+                    <ul>
+                      <li class="table_cell_text">React Native</li>
+                      <li class="table_cell_text">Javascript</li>
+                    </ul>
+                  </td>
+                  <td class="table_cell"><a class="link_button_dark" href="https://github.com/satuhyva/gamenopsa">to code</a></td>
+                  <td class="table_cell"><a class="link_button_dark" href="https://satuhyva.github.io/gamenopsa/">to app</a></td>
+                  <td class="table_cell">My favorite childhood card game: NOPSA, a kind of two-player solitaire. I started developing this game with the aim of being able to play NOPSA, and to learn animations.</td>
+                </tr>
+
+                <tr class="filterable reactnative javascript">
+                    <td class="table_cell">Binary to Decimal to Binary BINDESBIN</td>
+                    <td class="table_cell">
+                      <ul>
+                        <li class="table_cell_text">React Native</li>
+                        <li class="table_cell_text">Javascript</li>
+                      </ul>
+                    </td>
+                    <td class="table_cell"><a class="link_button_dark" href="https://github.com/satuhyva/bindesbin">to code</a></td>
+                    <td class="table_cell"><a class="link_button_dark" href="https://satuhyva.github.io/bindesbin/">to app</a></td>
+                    <td class="table_cell">I once needed to convert binaries to decimals and vice versa. So, I created this little app.</td>
+                  </tr>
+
+                  <tr class="filterable reactnative javascript">
+                      <td class="table_cell">Simple calculator EqualsTo</td>
+                      <td class="table_cell">
+                        <ul>
+                          <li class="table_cell_text">React Native</li>
+                          <li class="table_cell_text">Javascript</li>
+                        </ul>
+                      </td>
+                      <td class="table_cell"><a class="link_button_dark" href="https://github.com/satuhyva/EqualsTo">to code</a></td>
+                      <td class="table_cell"><a class="link_button_dark" href="https://satuhyva.github.io/EqualsTo/">to app</a></td>
+                      <td class="table_cell">I needed a simple calculator with possibility to add parenthesis and see the formula, so I created this litte app.</td>
+                    </tr>
+
+      </tbody>
+    </table>
+
+  <script>
+
+    filterTableRows("all")
+
+    function filterTableRows(target) {
+      const currentButtonIsSelected = document.getElementById(target).className == "filter_button_selected"
+      if (target == "all") {
+          let allSelectedButtons = document.getElementsByClassName("filter_button_selected")
+          const targets = []
+          for (let i = 0; i < allSelectedButtons.length; i++) {
+            targets.push(allSelectedButtons[i].id)
+          }
+          for (let i = 0; i < targets.length; i++) {
+            document.getElementById(targets[i]).className = "filter_button_not_selected"
+          }
+          document.getElementById("all").className = "filter_button_selected"
+      } else {
+        if (currentButtonIsSelected == false) {
+          document.getElementById("all").className = "filter_button_not_selected"
+          document.getElementById(target).className = "filter_button_selected"
+        } else {
+          document.getElementById(target).className = "filter_button_not_selected"
+          if (document.getElementsByClassName("filter_button_selected").length == 0) {
+            document.getElementById("all").className = "filter_button_selected"
+          }
+        }
+      }
+      const selectedKeywords = []
+      const selectedButtons = document.getElementsByClassName("filter_button_selected")
+      for (let i = 0; i < selectedButtons.length; i++) {
+        selectedKeywords.push(selectedButtons[i].id)
+      }
+      if (target == "all" || selectedKeywords.includes("all")) {
+        includeAll()
+      } else {
+        let filterableRows = document.getElementsByClassName("filterable")
+        for (let i = 0; i < filterableRows.length; i++) {
+          let tableRowElement = filterableRows[i]
+          let someKeywordNotFound = false
+          for (let j = 0; j < selectedKeywords.length; j++) {
+            if (!tableRowElement.className.split(" ").includes(selectedKeywords[j])) {
+              someKeywordNotFound = true
+            }
+          }
+          if (someKeywordNotFound) leaveOutFilterable(tableRowElement)
+          else includeFilterable(tableRowElement)
+        }
+      }
+    }
+
+    function includeAll() {
+      let filterableRows = document.getElementsByClassName("filterable")
+      for (let i = 0; i < filterableRows.length; i++) {
+        let tableRowElement = filterableRows[i]
+        includeFilterable(tableRowElement)
+      }
+    }
+
+    function includeFilterable(tableRowElement) {
+      let elementClasses = tableRowElement.className.split(" ")
+      if (elementClasses.includes("hide")) {
+        for (let i = 0; i < elementClasses.length; i++) {
+          if (elementClasses[i] == "hide") {
+            elementClasses[i] = "show"
+          }
+        }
+      } else if (!elementClasses.includes("show")) {
+        elementClasses.push("show")
+      }
+      tableRowElement.className = elementClasses.join(" ")
+    }
+
+    function leaveOutFilterable(tableRowElement) {
+      let elementClasses = tableRowElement.className.split(" ")
+      if (elementClasses[elementClasses.length - 1] == "show") {
+        elementClasses[elementClasses.length - 1] = "hide"
+      } else {
+        elementClasses.push("hide")
+      }
+      tableRowElement.className = elementClasses.join(" ")
+    }
+
+  </script>
+
+  </body>
+</html>

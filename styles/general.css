@@ -1,0 +1,153 @@
+:root {
+    --color1: #F3F2C9;
+    --color2: #53B8BB;
+    --color3: #055052;
+    --color4: #003638;
+}
+
+body {
+  font-family: Roboto Condensed;
+  height: 100%;
+  min-height: 100%;
+
+}
+
+.show {
+  display: table-row;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+.navigation_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navigation_link {
+  color: var(--color2);
+}
+.is_selected_navigation_link {
+    text-decoration: none;
+    color: var(--color2);
+}
+
+.slash_between {
+  color: var(--color2);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.rotate45 {
+  -webkit-transform:rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.footer_text {
+  color: var(--color3);
+}
+
+.link_button {
+  display:inline-block;
+  text-decoration: none;
+  color: var(--color1);
+  border-radius: 0.5em;
+  border-width: thin;
+  border-style: solid;
+  border-color: var(--color1);
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.link_button:hover {
+  color: var(--color4);
+  background-color: var(--color1);
+}
+
+
+
+.centered_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+}
+.centered_column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.title_smaller {
+  font-size: 3em;
+  color: var(--color1);
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.link_button_dark {
+  display:inline-block;
+  text-decoration: none;
+  color: var(--color2);
+  border-radius: 0.5em;
+  background-color: var(--color3);
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.link_button_dark:hover {
+  color: var(--color3);
+  background-color: var(--color2);
+}
+
+.filter_button_not_selected {
+  display:inline-block;
+  text-decoration: none;
+  color: var(--color1);
+  border-radius: 0.5em;
+  border-width: 0;
+  background-color: var(--color3);
+  padding: 0.3em;
+  margin: 0.5em;
+}
+
+.filter_button_selected {
+  display:inline-block;
+  text-decoration: none;
+  color: var(--color3);
+  border-radius: 0.5em;
+  border-width: 0;
+  background-color: var(--color1);
+  padding: 0.3em;
+  margin: 0.5em;
+}
+
+.filter_button_not_selected:hover {
+  color: var(--color3);
+  background-color: var(--color1);
+}
+
+.dotted_line {
+  border: dotted var(--color3) 5px;
+  border-bottom: none;
+  width: 50%;
+  margin: 100px auto;
+}

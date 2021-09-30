@@ -1,0 +1,27 @@
+
+
+body {
+  background-color: var(--color4);
+}
+
+.title {
+  font-size: 5em;
+  color: var(--color1);
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.info {
+  color: var(--color2);
+  text-align: center;
+}
+
+
+.section {
+  margin-top: 1em;
+  color: var(--color3);
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 0;
+}

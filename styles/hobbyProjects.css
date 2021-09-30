@@ -1,0 +1,43 @@
+
+
+body {
+  background-color: var(--color4);
+}
+
+.apps_table {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2em;
+}
+
+.table_header_text {
+  color: var(--color2);
+  font-weight: bolder;
+  font-size: 1.25em;
+}
+
+.table_cell {
+    border-top:  dotted;
+    border-width: 0.25em;
+    color: var(--color2);
+    border-color: var(--color3);
+}
+
+.table_cell_text {
+    color: var(--color2);
+}
+
+
+td {
+  padding: 15px;
+}
+
+.info_projects {
+  color: var(--color1);
+  width: 80%;
+  margin: 0.2em;
+}
+
+.filter_buttons_container {
+  width: 80%;
+}

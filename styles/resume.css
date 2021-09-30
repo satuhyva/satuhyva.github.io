@@ -1,0 +1,123 @@
+body {
+  background-color: var(--color4);
+}
+
+
+.centered_container_with_image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 0 auto;
+}
+
+.title_smaller_no_top_margin {
+  font-size: 3em;
+  color: var(--color1);
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.centered_column_narrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link_button_with_spacing {
+  display:inline-block;
+  text-decoration: none;
+  color: var(--color1);
+  border-radius: 0.5em;
+  border-width: thin;
+  border-style: solid;
+  border-color: var(--color1);
+  padding: 0.5em;
+  margin-left: 2.0em;
+}
+
+.link_button_with_spacing:hover {
+  color: var(--color4);
+  background-color: var(--color1);
+}
+
+.narrowed_contents {
+  width: 80%;
+}
+
+.resume_th {
+  text-align: left;
+  color: var(--color1);
+  vertical-align: top;
+}
+
+.resume_td {
+  vertical-align: top;
+}
+
+
+.education_title {
+  color: var(--color2);
+}
+
+
+
+.dotted_line_bottom_cell {
+    border-bottom:  dotted;
+    border-width: 0.25em;
+    border-color: var(--color3);
+}
+
+.collapsible {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collapsible_content {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.expand_button {
+  display:inline-block;
+  text-decoration: none;
+  color: var(--color2);
+  background-color: var(--color3);
+  border-radius: 0.5em;
+  padding: 0.2em;
+  /* margin-left: 2.0em; */
+}
+
+
+.expand_button:hover {
+  color: var(--color4);
+  background-color: var(--color2);
+}
+
+.more {
+  display: block;
+}
+
+.less {
+  display: none;
+}
+
+.left_aligned_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  /* align-items: center; */
+}
+
+.tr_info_text {
+  color: var(--color2);
+}
+
+.courses {
+  color: var(--color2);
+  text-align: left;
+}
