@@ -22,10 +22,29 @@
     </p>
 
     <h1 class="title_smaller">CONTACT ME</h1>
+    <h1 style="color: red">TESTING HOW TO ADD I AM NOT A ROBOT FUNCTIONALITY</h1>
+    <form method="post" onsubmit="return submitUserForm();">
+        <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY" data-callback="verifyCaptcha"></div>
+        <div id="g-recaptcha-error"></div>
+        <input type="submit" name="submit" value="Submit" />
+    </form>
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 
+    <script>
+      var recaptcha_response = '';
+      function submitUserForm() {
+          if(recaptcha_response.length == 0) {
+              document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
+              return false;
+          }
+          return true;
+      }
 
-
-
+      function verifyCaptcha(token) {
+          recaptcha_response = token;
+          document.getElementById('g-recaptcha-error').innerHTML = '';
+      }
+    </script>
     <!-- <form id="DemoForm" action="https://www.SnapHost.com/captcha/send.aspx" method="post" target="_top">
     <input id="skip_SnapHostID" name="skip_SnapHostID" type="hidden" value="DEMO12345678">
     <input id="skip_WhereToSend" name="skip_WhereToSend" type="hidden" value="support[[]]snaphost.com">
