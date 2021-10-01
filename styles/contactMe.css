@@ -93,16 +93,31 @@ body {
   transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.recaptcha-wrap {
-    position: relative;
-    height: 76px;
-    padding:1px 0 0 1px;
-    background:#222;
-    > div {
-        position: absolute;
-        bottom: 2px;
-        right:2px;
-        font-size:10px;
-        color:#ccc;
-    }
+
+.swal-button--confirm {
+    background: var(--color4);
+    color: var(--color2);
+}
+
+.swal-button--cancel {
+    background: var(--color4);
+    color: var(--color2);
+}
+
+.swal-button--danger {
+    background: var(--color4);
+    color: var(--color2);
+}
+
+.swal-modal {
+    background-color: var(--color3);
+}
+.swal-text {
+    color: var(--color2);
+    font-size: 23px;
+    text-align: center;
+}
+.swal-title {
+    color: var(--color2);
+    font-size: 26px;
 }

@@ -6,6 +6,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
     <link rel="stylesheet" href="../styles/general.css">
     <link rel="stylesheet" href="../styles/contactMe.css">
+
   </head>
   <body>
 
@@ -65,9 +66,11 @@
       })
     </script>
 
+    <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
 
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.js"></script> -->
 
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <!-- <input id="loginEmail" type="text" name="email" placeholder="Email">
     <input id="loginPassword" type="password" name="password" placeholder="Password"> -->
@@ -83,24 +86,38 @@
         const visitorEmail = document.getElementById('emailInput').value
         const visitorMessage = document.getElementById('messageInput').value
         if (!visitorName || !visitorEmail || !visitorMessage) {
-          alert('TARVITAAN viestin komponentit')
+          swal({
+            title: "Hmmmm...",
+            text: "Some fields are still empty. \nPlease fill them out.",
+            icon: "error",
+            button: "Got it!"
+          })
           return
         }
 
-        // if(recaptcha_response.length == 0) {
-        //     alert('TARVITAAN EN OLE ROBOTTI')
-        //     return
-        // }
+        if(recaptcha_response.length == 0) {
+          swal({
+            title: "Hmmmm...",
+            text: "Are you a robot?",
+            icon: "error",
+            button: "Let me try again"
+          })
+        }
 
         const http = new XMLHttpRequest()
-        let url = 'http://localhost:3001/contactMessage'
+        let url = 'https://personal-site-server-satu.herokuapp.com/health'
+        // let url = 'http://localhost:3001/contactMessage'
         url += `?name=${visitorName}&email=${visitorEmail}&message=${visitorMessage}`
         http.open('POST', url)
-        // http.open('GET', 'https://personal-site-server-satu.herokuapp.com/health')
         http.setRequestHeader('Content-type', 'application/json')
         http.send()
         http.onload = function() {
-            alert(http.responseText)
+          if (http.responseText === "OK")
+              swal({
+                title: "Thanks!",
+                text: "Your message was successfully sent.",
+                button: "OK"
+              })
         }
 
       }
