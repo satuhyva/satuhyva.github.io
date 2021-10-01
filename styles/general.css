@@ -20,6 +20,13 @@ body {
   display: none;
 }
 
+.title_smaller_no_top_margin {
+  font-size: 3em;
+  color: var(--color1);
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
 
 
 .navigation_links {

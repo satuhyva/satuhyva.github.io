@@ -11,13 +11,6 @@ body {
   margin: 0 auto 0 auto;
 }
 
-.title_smaller_no_top_margin {
-  font-size: 3em;
-  color: var(--color1);
-  margin-top: 0;
-  margin-bottom: 0;
-  text-align: center;
-}
 
 .centered_column_narrow {
   display: flex;
