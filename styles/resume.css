@@ -59,7 +59,7 @@ body {
 
 
 .education_title {
-  color: var(--color2);
+  color: var(--color1);
 }
 
 
@@ -120,4 +120,10 @@ body {
 .courses {
   color: var(--color2);
   text-align: left;
+}
+
+.work_info_text {
+  color: var(--color2);
+  margin-top: 0;
+  margin-left: 30px;
 }
