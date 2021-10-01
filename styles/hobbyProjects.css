@@ -32,11 +32,7 @@ td {
   padding: 15px;
 }
 
-.info_projects {
-  color: var(--color1);
-  width: 80%;
-  margin: 0.2em;
-}
+
 
 .filter_buttons_container {
   width: 80%;

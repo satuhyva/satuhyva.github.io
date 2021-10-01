@@ -20,12 +20,28 @@ body {
   display: none;
 }
 
+.text_1 {
+  color: var(--color1);
+}
+
 .title_smaller_no_top_margin {
   font-size: 3em;
   color: var(--color1);
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
+}
+
+.info_projects {
+  color: var(--color1);
+  width: 80%;
+  margin: 0.2em;
+}
+
+.info_history {
+  color: var(--color2);
+  width: 65%;
+  margin: 0.2em;
 }
 
 
