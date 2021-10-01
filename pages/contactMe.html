@@ -81,9 +81,18 @@
         const visitorEmail = document.getElementById('emailInput').value
         const visitorMessage = document.getElementById('messageInput').value
         if (!visitorName || !visitorEmail || !visitorMessage) {
+
+          const emailRegex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+          let regex = new RegExp(emailRegex)
+          const isValidEmail = regex.test(visitorEmail)
+          let infoText = "Some fields are missing.\n Please fill them out."
+          if (visitorMessage.length < 5) infoText = "Message must be at least 5 characters long.\n Please fix it."
+          if (!isValidEmail) infoText = "Your email does not look quite right.\n Please correct it."
+          if (visitorName.length < 3) infoText = "Name must be at least 3 characters long.\n Please fix it."
+
           swal({
             title: "Hmmmm...",
-            text: "Some fields are still empty. \nPlease fill them out.",
+            text: infoText,
             icon: "error",
             button: "Got it!"
           })
