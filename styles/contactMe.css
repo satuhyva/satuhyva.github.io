@@ -1,3 +1,108 @@
 body {
   background-color: var(--color4);
 }
+
+
+
+/* * {
+  box-sizing: border-box;
+} */
+
+
+.form-control {
+  position: relative;
+  margin: 10px 0;
+  width: 50%; #300px;
+}
+
+.form-control input {
+  color: var(--color1);
+  background-color: var(--color4);
+  border: 0;
+  border-bottom: 2px solid var(--color2);
+  padding: 15px 0;
+  display: block;
+  font-size: 18px;
+  /* font-family: 'Muli', sans-serif; */
+  width: 100%;
+  transition: 0.1s ease-in;
+}
+.label_text {
+  color: var(--color2);
+}
+.form-control input:focus,
+.form-control input:valid {
+  border-bottom-color: var(--color2);
+  outline: none;
+}
+
+.form-control input:focus + label span ,
+.form-control input:valid + label span{
+  color: var(--color2);
+  transform: translateY(-30px);
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+
+
+
+.form-control textarea {
+  color: var(--color1);
+  background-color: var(--color4);
+  border: 0;
+  border-bottom: 2px solid var(--color2);
+  padding: 15px 0;
+  display: block;
+  font-size: 18px;
+  /* font-family: 'Muli', sans-serif; */
+  width: 100%;
+  transition: 0.1s ease-in;
+}
+
+.form-control textarea:focus,
+.form-control textarea:valid {
+  border-bottom-color: var(--color2);
+  outline: none;
+}
+
+.form-control textarea:focus + label span ,
+.form-control textarea:valid + label span{
+  color: var(--color2);
+  transform: translateY(-30px);
+}
+
+
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.recaptcha-wrap {
+    position: relative;
+    height: 76px;
+    padding:1px 0 0 1px;
+    background:#222;
+    > div {
+        position: absolute;
+        bottom: 2px;
+        right:2px;
+        font-size:10px;
+        color:#ccc;
+    }
+}

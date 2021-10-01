@@ -22,50 +22,93 @@
     </p>
 
     <h1 class="title_smaller">CONTACT ME</h1>
+    <br>
+    <div class="centered_container">
+      <div  class="centered_column">
+        <div class="form-control">
+          <input id="nameInput" type="text" required/>
+          <label class="label_text">Name</label>
+        </div>
 
-    <h1 style="color: red">TESTING HOW TO ADD I AM NOT A ROBOT FUNCTIONALITY</h1>
+        <div class="form-control">
+          <input id="emailInput" type="text" required/>
+          <label class="label_text">Email</label>
+        </div>
 
-    <div class="">
-      <div class="g-recaptcha" data-sitekey="6LfqvJwcAAAAAO_QjgdUHA14GdU5DUYfZ7TNoQrA" data-callback="verifyCaptcha"></div>
-      <div id="g-recaptcha-error"></div>
+        <div class="form-control">
+          <textarea id="messageInput" rows="10"  required></textarea>
+          <label class="label_text">Message</label>
+        </div>
+
+        <br>
+        <div  class="recaptcha-wrap">
+          <div class="g-recaptcha" data-sitekey="6LfqvJwcAAAAAO_QjgdUHA14GdU5DUYfZ7TNoQrA" data-callback="verifyCaptcha"></div>
+          <div id="g-recaptcha-error"></div>
+        </div>
+        <br>
+        <button type="button" name="button" onclick="submitContactMessage()">SUBMIT</button>
+      </div>
     </div>
-    <button type="button" name="button" onclick="submitContactMessage">SUBMIT</button>
+
+
+
+
+    <script type="text/javascript">
+      let labels = document.querySelectorAll('.form-control label')
+      labels.forEach(labelItem => {
+      labelItem.innerHTML = labelItem.innerText
+        .split('')
+        .map((letter, idx) => `<span style="
+            transition-delay: ${idx * 50}ms
+          ">${letter}</span>`)
+        .join('');
+      })
+    </script>
+
+
+
+
+
+    <!-- <input id="loginEmail" type="text" name="email" placeholder="Email">
+    <input id="loginPassword" type="password" name="password" placeholder="Password"> -->
+
+
     <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 
     <script type="text/javascript">
       var recaptcha_response = ''
+
       function submitContactMessage() {
-        return true
+        const visitorName = document.getElementById('nameInput').value
+        const visitorEmail = document.getElementById('emailInput').value
+        const visitorMessage = document.getElementById('messageInput').value
+        if (!visitorName || !visitorEmail || !visitorMessage) {
+          alert('TARVITAAN viestin komponentit')
+          return
+        }
+
+        // if(recaptcha_response.length == 0) {
+        //     alert('TARVITAAN EN OLE ROBOTTI')
+        //     return
+        // }
+
+        const http = new XMLHttpRequest()
+        let url = 'http://localhost:3001/contactMessage'
+        url += `?name=${visitorName}&email=${visitorEmail}&message=${visitorMessage}`
+        http.open('POST', url)
+        // http.open('GET', 'https://personal-site-server-satu.herokuapp.com/health')
+        http.setRequestHeader('Content-type', 'application/json')
+        http.send()
+        http.onload = function() {
+            alert(http.responseText)
+        }
+
       }
+
       function verifyCaptcha(token) {
           recaptcha_response = token
-          console.log(token)
           document.getElementById('g-recaptcha-error').innerHTML = ''
       }
     </script>
-
-    <!-- <form method="post" onsubmit="return submitUserForm()">
-        <div class="g-recaptcha" data-sitekey="6LfqvJwcAAAAAO_QjgdUHA14GdU5DUYfZ7TNoQrA" data-callback="verifyCaptcha"></div>
-        <div id="g-recaptcha-error"></div>
-        <input type="submit" name="submit" value="Submit" />
-    </form>
-    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
-
-    <script>
-      var recaptcha_response = '';
-      function submitUserForm() {
-        console.log(recaptcha_response)
-          if(recaptcha_response.length == 0) {
-              document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
-              return false;
-          }
-          return true;
-      }
-
-      function verifyCaptcha(token) {
-          recaptcha_response = token;
-          document.getElementById('g-recaptcha-error').innerHTML = '';
-      }
-    </script> -->
   </body>
 </html>
