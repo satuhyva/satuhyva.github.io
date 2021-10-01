@@ -43,6 +43,11 @@ body {
   width: 65%;
   margin: 0.2em;
 }
+.info_contact {
+  color: var(--color2);
+  width: 50%;
+  margin: 0.2em;
+}
 
 
 .navigation_links {
