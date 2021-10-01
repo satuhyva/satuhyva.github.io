@@ -11,7 +11,7 @@ body {
 
 .form-control {
   position: relative;
-  margin: 10px 0;
+  margin: 20px 0;
   width: 50%; #300px;
 }
 
@@ -20,7 +20,7 @@ body {
   background-color: var(--color4);
   border: 0;
   border-bottom: 2px solid var(--color2);
-  padding: 15px 0;
+  padding: 10px 0;
   display: block;
   font-size: 18px;
   /* font-family: 'Muli', sans-serif; */
@@ -44,8 +44,9 @@ body {
 
 .form-control label {
   position: absolute;
-  top: 15px;
+  top: -20px;
   left: 0;
+  /* background-color: orange; */
 }
 
 .form-control label span {

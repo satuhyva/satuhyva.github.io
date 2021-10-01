@@ -28,18 +28,21 @@
     <div class="centered_container">
       <div  class="centered_column">
         <div class="form-control">
-          <input id="nameInput" type="text" required/>
           <label for="nameInput" class="label_text">Name</label>
+          <input id="nameInput" type="text" required/>
+
         </div>
 
         <div class="form-control">
-          <input id="emailInput" type="text" required/>
           <label for="emailInput" class="label_text">Email</label>
+          <input id="emailInput" type="text" required/>
+
         </div>
 
         <div class="form-control">
-          <textarea id="messageInput" rows="10"  required></textarea>
           <label for="messageInput" class="label_text">Message</label>
+          <textarea id="messageInput" rows="10"  required></textarea>
+
         </div>
 
         <br>
@@ -55,7 +58,7 @@
 
 
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       let labels = document.querySelectorAll('.form-control label')
       labels.forEach(labelItem => {
       labelItem.innerHTML = labelItem.innerText
@@ -65,7 +68,7 @@
           ">${letter}</span>`)
         .join('');
       })
-    </script>
+    </script> -->
 
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
