@@ -48,7 +48,7 @@
           <div id="g-recaptcha-error"></div>
         </div>
         <br>
-        <button type="button" name="button" onclick="submitContactMessage()">SUBMIT</button>
+        <button class="submit_form_button" type="button" name="button" onclick="submitContactMessage()">SUBMIT</button>
       </div>
     </div>
 
@@ -100,21 +100,31 @@
         }
 
         const http = new XMLHttpRequest()
-        let url = 'https://personal-site-server-satu.herokuapp.com/health'
+        let url = 'https://personal-site-server-satu.herokuapp.com/contactMessage'
         // let url = 'http://localhost:3001/contactMessage'
         url += `?name=${visitorName}&email=${visitorEmail}&message=${visitorMessage}`
         http.open('POST', url)
         http.setRequestHeader('Content-type', 'application/json')
         http.send()
         http.onload = function() {
-          if (http.responseText === "OK")
-              swal({
-                title: "Thanks!",
-                text: "Your message was successfully sent.",
-                button: "OK"
-              })
+          if (http.responseText === "OK") {
+            swal({
+              title: "Thanks!",
+              text: "Your message was successfully sent.",
+              button: "OK"
+            })
+            document.getElementById('nameInput').value = ""
+            document.getElementById('emailInput').value = ""
+            document.getElementById('messageInput').value = ""
+          } else {
+            swal({
+              title: "Hmmmm...",
+              text: "Something went wrong.\n Please try again.",
+              icon: "error",
+              button: "Let me try again"
+            })
+          }
         }
-
       }
 
       function verifyCaptcha(token) {
